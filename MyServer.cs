@@ -27,7 +27,6 @@ namespace DDE_Transfer
             this.topic = topic;
             // Create a timer that will be used to advise clients of new data.          
             this._ThreadTimer = new ThreadingTimer(new System.Threading.TimerCallback(Callback), " ", 1, 1000);
-
             base.Register();
 
         }
