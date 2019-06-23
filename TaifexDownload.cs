@@ -108,7 +108,6 @@ namespace DDE_Transfer
         }
 
         abstract protected  Dictionary<string,string>  dataAnalysis(string result);
-  
         abstract protected void getHistoricalData(DateTime beginData, DateTime endDate);
 
 
